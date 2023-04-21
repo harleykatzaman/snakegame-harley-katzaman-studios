@@ -1,0 +1,78 @@
+body {
+    font-family: 'Handwriting', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  animation: bgcolor infinite 50s;
+}
+
+
+
+
+
+
+@keyframes bgcolor {
+    0%
+    {
+        background:#2c3e50 ;
+ 
+    }
+    10%
+    {
+        background:#2268ad ;
+ 
+    }
+    20%
+    {
+        background:#12a0aa ;
+ 
+    }
+    30%
+    {
+        background:#30d11b ;
+ 
+    }
+    40%
+    {
+        background:#87a019 ;
+ 
+    }
+    50%
+    {
+        background:#d85619 ;
+ 
+    }
+    60%
+    {
+        background:#ec3313 ;
+ 
+    }
+    70%
+    {
+        background:#d81923 ;
+ 
+    }
+    80%
+    {
+        background:#d8198f ;
+ 
+    } 
+    90%
+    {
+        background:#580770 ;
+ 
+    }
+    100%
+    {
+        background:#2c3e50 ;
+ 
+    }
+}
+
+
+.music{
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-90%, -90%);
+}
